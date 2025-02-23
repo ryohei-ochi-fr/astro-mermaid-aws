@@ -1,3 +1,21 @@
+# やったこと
+
+```cmd
+node -v
+v22.12.0
+
+npm create astro@latest
+
+Where should we create your new project?
+./mermaid-aws
+
+cd .\mermaid-aws
+npm install mermaid
+npm run dev
+```
+
+
+
 # Astro Starter Kit: Basics
 
 ```sh
