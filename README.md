@@ -12,8 +12,17 @@ Where should we create your new project?
 cd .\mermaid-aws
 npm install mermaid
 npm install @astrojs/ts-plugin
+npm install mdast@latest
+npm install @types/mdast
 
 mv astro.config.mjs astro.config.ts
+
+npx astro add mdx
+npm install @southball/remark-mermaid
+npm install remark-card
+npm install -g @mermaid-js/mermaid-cli
+
+npm install mdx-mermaid mermaid
 
 npm run dev
 ```
