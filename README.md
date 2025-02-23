@@ -11,6 +11,10 @@ Where should we create your new project?
 
 cd .\mermaid-aws
 npm install mermaid
+npm install @astrojs/ts-plugin
+
+mv astro.config.mjs astro.config.ts
+
 npm run dev
 ```
 
